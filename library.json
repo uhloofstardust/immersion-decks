@@ -1,0 +1,62 @@
+{
+  "stories": [
+    {
+      "id": "the-postmaster",
+      "language": "bn",
+      "title": {
+        "native": "পোস্টমাস্টার",
+        "en": "The Postmaster"
+      },
+      "author": {
+        "native": "রবীন্দ্রনাথ ঠাকুর",
+        "en": "Rabindranath Tagore"
+      },
+      "tag": "Short story",
+      "color": "sage",
+      "reader": "bengali/immersion/stories/the-postmaster/story.json"
+    },
+    {
+      "id": "demo-rainy-day",
+      "language": "bn",
+      "title": {
+        "native": "বৃষ্টির দিন",
+        "en": "A Rainy Day"
+      },
+      "author": null,
+      "tag": "Demo",
+      "color": "blush",
+      "reader": "bengali/immersion/stories/demo-rainy-day/story.json"
+    }
+  ],
+  "decks": [
+    {
+      "id": "satyanweshi",
+      "language": "bn",
+      "title": {
+        "native": "সত্যান্বেষী",
+        "en": "Satyanweshi"
+      },
+      "author": {
+        "native": "শরদিন্দু বন্দ্যোপাধ্যায়",
+        "en": "Sharadindu Bandyopadhyay"
+      },
+      "tag": "Byomkesh",
+      "color": "butter",
+      "file": "bengali/immersion/stories/byomkesh/satyanweshi.apkg",
+      "size": "277 KB"
+    },
+    {
+      "id": "taranath-01",
+      "language": "bn",
+      "title": {
+        "native": "তারানাথ",
+        "en": "Taranath"
+      },
+      "author": null,
+      "tag": "Deck 01",
+      "color": "periwinkle",
+      "file": "bengali/immersion/stories/taranath/taranath_01.apkg",
+      "size": "156 KB"
+    }
+  ]
+}

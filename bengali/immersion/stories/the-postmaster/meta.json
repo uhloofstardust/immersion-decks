@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "the-postmaster",
+  "language": "bn",
+  "title": {
+    "native": "পোস্টমাস্টার",
+    "en": "The Postmaster"
+  },
+  "author": {
+    "native": "রবীন্দ্রনাথ ঠাকুর",
+    "en": "Rabindranath Tagore"
+  },
+  "story_file": "story.json",
+  "deck_file": null,
+  "word_count": 1646,
+  "sentence_count": 121,
+  "difficulty": null,
+  "tags": []
+}

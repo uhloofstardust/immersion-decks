@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Immersion Decks — words stick better in stories</title>
+  <meta name="description" content="Read stories with tap-for-meaning glosses, and download Anki decks.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%238a2f6b'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white'>গ</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Noto+Sans+Bengali:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=6">
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <a class="brand" href="./"><span aria-hidden="true">গ</span>Immersion Decks</a>
+      <div class="nav-links">
+        <a href="#stories">Stories</a>
+        <a href="#decks">Decks</a>
+        <a href="https://github.com/uhloofstardust/immersion-decks">GitHub</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div>
+        <h1>Words stick better in <em><span>stories.</span></em></h1>
+        <div class="hero-actions" style="margin-top:32px">
+          <a class="btn primary" href="reader.html?s=demo-rainy-day">Read a story</a>
+          <a class="btn" href="#decks">Get the decks</a>
+        </div>
+      </div>
+      <div class="preview" aria-hidden="true">
+        <div class="eyebrow">Tap a word</div>
+        <div class="line">আজ সকালে খুব <span class="hit">বৃষ্টি</span> হচ্ছে।</div>
+        <div class="mock-pop"><b>বৃষ্টি</b><i>brishti</i> rain</div>
+      </div>
+    </header>
+
+    <section id="stories">
+      <div class="section-head"><h2>Stories</h2></div>
+      <div id="stories-list" class="grid" aria-live="polite"></div>
+      <noscript><p class="notice">The library needs JavaScript. Decks live in the <code>bengali/</code> folder of the repository.</p></noscript>
+    </section>
+
+    <section id="decks">
+      <div class="section-head"><h2>Anki decks</h2></div>
+      <div id="decks-list" class="decks" aria-live="polite"></div>
+    </section>
+
+    <section>
+      <div class="soon">
+        <div>
+          <h3>More resources on the way</h3>
+          <p>Script and conjunct practice, verb tables, and a curated list of dictionaries and references.</p>
+        </div>
+        <span class="btn" aria-disabled="true">Coming soon</span>
+      </div>
+    </section>
+
+  </div>
+  <script src="assets/home.js?v=6"></script>
+</body>
+</html>

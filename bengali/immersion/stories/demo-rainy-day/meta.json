@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "demo-rainy-day",
+  "language": "bn",
+  "title": { "native": "বৃষ্টির দিন", "en": "A Rainy Day" },
+  "author": { "native": "", "en": "" },
+  "story_file": "story.json",
+  "deck_file": null,
+  "word_count": 21,
+  "sentence_count": 5,
+  "difficulty": 1,
+  "tags": ["demo"]
+}
